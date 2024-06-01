@@ -1,4 +1,4 @@
-class Polymorphism {
+class Child {
  String name ; 
  int age ;
 
@@ -18,9 +18,9 @@ System.out.println(name);
  }
 } 
 
-public class Java{
+public class Polymorphism{
     public static void main(String[] args) {
-Polymorphism s1 = new Polymorphism();
+Child s1 = new Child();
 s1.name = "ujju";
 s1.age = 20 ; 
 
