@@ -4,8 +4,8 @@ import java.util.List;
 
 public class Stack {
 public static void main(String[] args) {
-    Stack<String> fruits = new Stack<>();
-    fruits.push()
+    // Stack<String> fruits = new Stack<>();
+    // fruits.push()
 
 }
     
