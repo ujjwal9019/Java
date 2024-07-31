@@ -9,9 +9,10 @@ public class ArrayDeq {
         // This two to add in from rear 
         dq.offer(10);
         dq.offerLast(20);
+        System.out.println(dq);
         //This   to add from first 
         dq.offerFirst(30);
-      
+        System.out.println(dq);
 
         // remove from first
         System.out.println(dq.poll());

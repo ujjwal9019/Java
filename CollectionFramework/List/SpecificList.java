@@ -4,7 +4,7 @@ package CollectionFramework.List;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.swing.text.html.HTMLDocument.Iterator;
+import java.util.Iterator;
 
 public class SpecificList {
     public static void main(String[] args) {
@@ -45,10 +45,10 @@ public class SpecificList {
 
 // 3 - by iterator 
 
-// Iterator<Integer> fe = list.iterator();
-// while (fe.hasNext()) {
-//     System.out.println(fe.next());
-// }
+Iterator<Integer> fe = list.iterator();
+while (fe.hasNext()) {
+    System.out.print( "[" + fe.next() + ",]");
+}
 
 //   
 

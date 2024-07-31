@@ -6,11 +6,11 @@ import java.util.TreeSet;
 public class LearnSet {
     public static void main(String[] args) {
         
-        // Set<Integer> set = new LinkedHashSet<>();  //0(1)
+        Set<Integer> set = new LinkedHashSet<>();  //0(1)
          
         // Set<Integer> set = new HashSet<>();    // 0(n)
         
-        Set<Integer> set = new TreeSet<>();  // 0(longn)
+        // Set<Integer> set = new TreeSet<>();  // 0(longn)
 
         set.add(10);
         set.add(20);
